@@ -1,0 +1,22 @@
+{
+  "name": "apple-refurbished-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint */*.js",
+    "lint:fix": "./node_modules/.bin/eslint */*.js --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.4.10",
+    "puppeteer": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0"
+  }
+}
