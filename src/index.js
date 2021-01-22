@@ -30,7 +30,7 @@ const handleScrape = async (err) => {
       sendText(`The Office is on sale for $${price}`)
     } else {
       console.log(`no sale, costs $${price}`)
-      sendText(`no sale, costs $${price}`)
+      // sendText(`no sale, costs $${price}`)
     }
   } catch (e) {
     console.log('??')
